@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/sylwesterszydlo@interia.pl" method="POST">
+
+        <label for="name">imie</label>
+        <br>
+        <input type="text" id="name" name="name">
+        <br><br>
+
+        <label for="surname">nazwisko</label>
+        <br>
+        <input type="text" id="surname" name="surname">
+        <br><br>
+        
+        <label for="e-mail">e-mail</label>
+        <br>
+        <input type="text" id="e-mail" name="e-mail">
+        <br><br>
+
+        <label for="tel-number">numer-telefonu</label>
+        <br>
+        <input type="text" id="tel-number" name="numer-telefonu">
+        <br><br>
+
+        <label for="message">wiadomosc</label>
+        <br>
+        <textarea maxlength="100" name="message" id="message" cols="30" rows="10"></textarea>
+        <br><br>
+        
+
+        <!--select>option{opcja$}*3        -->
+        <!--(label>input[type="radio"])*3-->
+
+        <label for="male"><input type="radio" name="gender">male</label>
+        <label for="female"><input type="radio" name="gender">female</label>
+        <label for="other"><input type="radio" name="gender">other</label>
+
+        <br><br>
+        <label for="option">wybierz opcje</label>
+        <select id="option" name="select">
+            <option value="value1">Value 1</option>
+            <option value="value2">Value 2</option>
+            <option value="value3">Value 3</option>
+        </select>
+        <br><br>
+        <input type="submit" value="wyslij" name="submit">
+    </form>
+</body>
+
+</html>
